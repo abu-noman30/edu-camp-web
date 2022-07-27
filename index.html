@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Bootstrap demo</title>
+    <title>EduCamp</title>
     <!-- css file link -->
     <link rel="stylesheet" href="./css/style.css" />
 
@@ -36,6 +36,11 @@
       <nav class="navbar navbar-expand-lg bg-light">
         <div class="container">
           <a class="navbar-brand" href="#">EduCamp</a>
+          <form class="d-flex ms-auto me-5 d-none d-lg-none d-md-block">
+            <button class="btn btn-outline-primary" type="submit">
+              Register
+            </button>
+          </form>
           <button
             class="navbar-toggler"
             type="button"
@@ -68,7 +73,7 @@
                 <a class="nav-link">Register</a>
               </li>
             </ul>
-            <form class="d-flex">
+            <form class="d-flex d-lg-block d-md-none">
               <button class="btn btn-outline-primary" type="submit">
                 Register
               </button>
@@ -78,6 +83,114 @@
       </nav>
 
       <!-- Carousel - Bannar section -->
+
+      <section class="bannar-section">
+        <div class="container">
+          <div
+            id="carouselExampleInterval"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img
+                  src="./images/cover/2.png"
+                  class="d-block w-100 img-fluid"
+                  style="min-height: 430px"
+                  alt="bannar image"
+                />
+
+                <div
+                  class="carousel-caption d-flex flex-column justify-content-center align-items-center"
+                  style="top: 0"
+                >
+                  <h1 class="fw-bolder mb-lg-3 mb-md-3 mb-sm-1 px-lg-5">
+                    For every student, every classroom. Real results.
+                  </h1>
+                  <p class="mb-lg-4 mb-md-4 mb-sm-1 fs-6 fw-lighter px-lg-5">
+                    We’re with the mission to provide a free,
+                    world-class education anywhere.
+                  </p>
+                  <button type="button" class="btn btn-primary">
+                    Get Started
+                  </button>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="20000">
+                <img
+                  src="./images/cover/1.png"
+                  class="d-block w-100 img-fluid"
+                  style="min-height: 430px"
+                  alt="bannar image"
+                />
+
+                <div
+                  class="carousel-caption d-flex flex-column justify-content-center align-items-center"
+                  style="top: 0"
+                >
+                  <h1 class="fw-bolder mb-lg-3 mb-md-3 mb-sm-1 px-lg-5">
+                    Putting Your Child’s Future in Motion
+                  </h1>
+                  <p class="mb-lg-4 mb-md-4 mb-sm-1 fs-6 fw-lighter px-lg-5">
+                    Designed specifically for online learning.
+                  </p>
+                  <button type="button" class="btn btn-primary">
+                    Get Started
+                  </button>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="20000">
+                <img
+                  src="./images/cover/3.png"
+                  class="d-block w-100 img-fluid"
+                  style="min-height: 430px"
+                  alt="bannar image"
+                />
+
+                <div
+                  class="carousel-caption d-flex flex-column justify-content-center align-items-center"
+                  style="top: 0"
+                >
+                  <h1 class="fw-bolder mb-lg-3 mb-md-3 mb-sm-1 px-lg-5">
+                    For Where You Are Today. And Where Your Child Wants to Be
+                    Tomorrow.
+                  </h1>
+                  <p class="mb-lg-4 mb-md-4 mb-sm-1 fs-6 fw-lighter px-lg-5">
+                    Our certified teachers love what they do.
+                  </p>
+                  <button type="button" class="btn btn-primary">
+                    Get Started
+                  </button>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleInterval"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon d-none d-lg-inline d-md-inline"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleInterval"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon d-none d-lg-inline d-md-inline"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </section>
     </header>
     <main></main>
     <footer></footer>
